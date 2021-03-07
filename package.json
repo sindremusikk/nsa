@@ -1,0 +1,25 @@
+{
+  "name": "nsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateSite.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "http-server": "^0.12.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olapeter/nsb.git"
+  },
+  "author": "Ola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olapeter/nsb/issues"
+  },
+  "homepage": "https://github.com/olapeter/nsb#readme"
+}

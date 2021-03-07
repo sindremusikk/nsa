@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<title>Norske StorBand arr</title>
+<meta name="keywords" content="Big band, Storband, Arrangement, Score, Noter">
+<link href="style/main.css" rel="stylesheet">
+<h1>Norske StorBand arr</h1>
+<p>En oversikt over storbandarrangementer skrevet av norske storbandarrangører</p>
+
+<table id="nsb-list">
+<thead>
+    <th>Tittel</th>
+    <th>Komponist / artist</th>
+    <th>Arrangør</th>
+    <th>Vokal</th>
+    <th>Vanskegrad</th>
+    <th>Pris</th>
+    <th>Kontaktinformasjon</th>
+</thead>
+<tbody>
+<% if (mainTable) { %>
+<%- mainTable.content %>
+<% } %>
+</tbody>
+</table>
+
+<footer>Sida er sponset av <br><a href="https://soco.no/"><img src="images/socologo.png" alt="SOCO Norge logo"></a></footer>

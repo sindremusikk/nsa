@@ -1,0 +1,16 @@
+body {
+    background-color: aliceblue;
+    color: navy;
+}
+
+table{
+    background-color: papayawhip;
+}
+
+table thead {
+    background-color: peachpuff;
+}
+
+footer{
+    text-align: center;
+}
