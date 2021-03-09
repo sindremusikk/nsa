@@ -40,7 +40,7 @@ async function generate() {
         for (const [key, value] of Object.entries(item)) {
             row += `<td>${value}</td>`
         }
-        tableRows += `${row}</tr>\n`
+        tableRows += `${row}</tr>\r\n`
     }
 
 
@@ -49,7 +49,7 @@ async function generate() {
     }
     const html = await ejs.renderFile('index.ejs', { mainTable: mainTableModel }).then((output) => output)
 
-    fs.writeFileSync('index.html', html)
+    fs.writeFileSync('./docs/index.html', html)
 
 }
 
