@@ -5,12 +5,29 @@ body {
 
 table{
     background-color: papayawhip;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 table thead {
     background-color: peachpuff;
 }
 
+table tr {
+    line-height: 1.5em;
+}
+
+table tr td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1, p {
+    text-align: center;
+}
+
 footer{
+    margin-top: 2em;
     text-align: center;
 }
