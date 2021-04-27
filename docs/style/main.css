@@ -1,33 +1,94 @@
 body {
-    background-color: aliceblue;
-    color: navy;
+    background-color: #282D32;
+    color: #C8A958;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 
-table{
-    background-color: papayawhip;
-    margin-left: auto;
-    margin-right: auto;
-    
+h1 {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 4em;
+    text-align: center;
+    background: -webkit-linear-gradient(#93711A, #F0D389, #93711A, #c5b358);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-table thead {
-    background-color: peachpuff;
-}
-
-table tr {
-    line-height: 1.5em;
-}
-
-table tr td {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-h1, p {
+p {
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.8;
     text-align: center;
 }
 
+table {
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.015em;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1px 6px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+table thead {
+    background-color: #C8A958 !important;
+    font-weight: 800;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+table tr {
+    background-color: #373C41;
+    line-height: 1.5em;
+}
+
+
+table tr td {
+    padding: 1.2em 1em;
+}
+
+thead tr th {
+    padding: 0.8em 1.1em;
+}
+
+thead tr {
+    background-color: #C8A958;
+    color: #282832;
+    text-align: left;
+}
+
+th:first-child {
+    border-radius: 0.25em 0 0 0.25em;
+}
+
+th:last-child {
+    border-radius: 0 0.25em 0.25em 0;
+}
+
+td:first-child {
+    border-radius: 0.25em 0 0 0.25em;
+    font-weight: 500;
+}
+
+td:last-child {
+    border-radius: 0 0.25em 0.25em 0;
+}
+
+img {
+    margin-top: 1em;
+}
+
 footer{
+    font-size: 1.4em;
+    line-height: 1.8;
+    font-weight: 300;
     margin-top: 2em;
     text-align: center;
 }
